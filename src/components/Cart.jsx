@@ -2,9 +2,11 @@ import React from 'react';
 import { CartCon } from '../styles/Cart.styles';
 import Delete from '../assets/icon-delete.svg';
 import { useSelector } from 'react-redux';
+// import { useDispatch } from 'react-redux';
+// import { clearCart } from '../features/cart/cartSlice';
 
 function Cart() {
-  // const [isChecked, setChecked] = useState(false);
+  // const dispatch = useDispatch();
   const { cartItems, total, isChecked } = useSelector((store) => store.cart);
   return (
     <CartCon>
