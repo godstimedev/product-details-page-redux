@@ -5,8 +5,8 @@ export const CartCon = styled.div`
   height: 230px;
   padding: 2rem 1rem;
   background-color: white;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
-  border-radius: 15px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -41,7 +41,11 @@ export const CartCon = styled.div`
         }
       }
     }
-    img:nth-child(2) {
+    .del {
+      cursor: pointer;
+    }
+    .del:hover {
+      opacity: 0.8;
     }
   }
   button {
@@ -53,5 +57,15 @@ export const CartCon = styled.div`
     border-radius: 10px;
     color: white;
     width: 100%;
+  }
+  button:hover {
+    opacity: 0.7;
+  }
+  > p:last-child {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
   }
 `;

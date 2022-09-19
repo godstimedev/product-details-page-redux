@@ -8,10 +8,12 @@ export const ProductCon = styled.div`
   gap: 2rem;
   margin: 1rem auto;
   padding: 1rem 3rem;
+
   @media screen and (max-width: 720px) {
     flex-direction: column;
     margin: auto;
     padding: 0;
+    overflow-x: hidden;
     /* gap: 6rem; */
   }
   .left {
@@ -132,6 +134,9 @@ export const ProductCon = styled.div`
           background: hsl(26, 100%, 55%);
           border-radius: 10px;
           color: white;
+        }
+        button:hover {
+          opacity: 0.7;
         }
       }
     }

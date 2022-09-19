@@ -24,12 +24,17 @@ function Cart() {
                 <div>${total}</div>
               </div>
             </div>
-            <img src={Delete} alt='/' />
+            <img
+              className='del'
+              src={Delete}
+              alt='/'
+              onClick={() => window.location.reload(false)}
+            />
           </div>
           <button>Checkout</button>
         </>
       ) : (
-        <p>Your cart is empty</p>
+        <p>Your cart is empty.</p>
       )}
     </CartCon>
   );

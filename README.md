@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./src/assets/Screenshot.jpg)
+![](./Screenshot.png)
 
 ### Links
 
@@ -51,6 +51,13 @@ Users should be able to:
 I learned how to use redux toolkit for state management in this project
 
 ```js
+export const store = configureStore({
+  reducer: {
+    cart: cartReducer,
+    modal: modalReducer,
+  },
+});
+
 const { cartItems } = useSelector((store) => store.cart);
 ```
 

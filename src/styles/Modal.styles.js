@@ -4,6 +4,9 @@ export const ModalCon = styled.div`
   width: 80vw;
   max-width: 400px;
   position: relative;
+  @media screen and (max-width: 720px) {
+    width: 60vw;
+  }
   .close {
     position: absolute;
     right: -5px;
@@ -20,14 +23,14 @@ export const ModalCon = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 400px;
+    /* max-width: 400px; */
     .cont {
       width: 100%;
       .card--con {
         > img {
           width: fit-content;
           border-radius: 10px;
-          margin: auto;
+          /* margin: auto; */
         }
       }
       .slick-slider > .slick-dots > li:hover {
