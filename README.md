@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/godstimedev/product-details-page-redux)
-- Live Site URL: [Add live site URL here](http://product-details-page-redux.vercel.app/)
+- Solution URL: [](https://github.com/godstimedev/product-details-page-redux)
+- Live Site URL: [](http://product-details-page-redux.vercel.app/)
 
 ## My process
 
